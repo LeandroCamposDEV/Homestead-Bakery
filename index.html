@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="main.css">
+        <title>Homestead Bakery</title>
+    </head>
+    <body>
+        <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+            <div class="container">
+                <img class="img-fluid" src="images/logo.png" alt="">
+                <h1 class="navbar-brand m-0 section-title fs-2">Homestead Bakery</h1>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#about-us">
+                                <i class="bi bi-book me-1"></i>
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#course">
+                                <i class="bi bi-calendar-check me-1"></i>
+                                Course
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#menu">
+                                <i class="bi bi-cup-hot me-1"></i>
+                                Menu
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#contact-us">
+                                <i class="bi bi-chat-left-text me-1"></i>
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+            <section id="about-us">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="w-100" src="images/Breads/breads1.jpg" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100" src="images/Showcase/showcase2.jpg" alt="Duas taças de vinho">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100" src="images/Hamburguer/hamburguer1.jpg" alt="Uma mesa com comida">
+                        </div>
+                    </div>
+        
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="images/Man/man.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">About Us</h2>
+                                <p>
+                                    Welcome to Homestead Bakery, a slice of London tradition in every bite. Since 1924, our family-owned bakery has been serving the local community with handcrafted breads, sweets, and cakes. Born in the heart of London, Homestead Bakery stands as a testament to the love and dedication to classic recipes passed down through generations. We use only the finest local ingredients to ensure unparalleled quality and freshness. Here, every product not only nourishes the body but also celebrates our rich cultural heritage. Come discover the flavors that make Homestead Bakery a landmark in London baking.    
+                                </p>
+                                <h3 class="section-title">Our Space</h3>
+                                <p>
+                                    At Homestead Bakery, we've created an environment where every visit is a memorable experience. Our space is designed to welcome everyone who appreciates fine food in a charming and cozy setting. Blending rustic and modern decor, we offer the perfect backdrop for special moments together. Whether it's for a romantic breakfast, an afternoon of sweets and tea, or a peaceful evening, our nooks are ideal for couples looking to enjoy some time together. Additionally, our prime location in London adds a touch of magic and history to your visit. Come and experience this at Homestead Bakery, where every detail is thoughtfully curated for your happiness and comfort.
+                                </p>
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100 rounded mb-3" src="images/Couple/couple1.jpg" alt="Couple">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <img class="d-block w-100  rounded" src="images/Couple/couple2.jpg" alt="Couple">
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="course" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center">Baking course</h2>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img src="images/Preparation/preparation1.jpg" alt="" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-tag-fill"></i>
+                                Preparing the Dough
+                            </h3>
+                            <p>
+                                Discover the joy of making bread from scratch! Our introductory course teaches basic dough preparation techniques, allowing you to feel the perfect texture beneath your hands. Ideal for beginners passionate about the art of baking.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/Preparation/preparation2.jpg" alt="" class="d-block w-100 rounded  mb-2">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-tag-fill"></i>
+                                Baking the Breads
+                            </h3>
+                            <p>
+                                Experience the enticing aroma of fresh bread coming out of the oven! In this module of the course, you will learn how to bake breads to perfection, understanding the ideal timing and temperature for each type of recipe.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/Preparation/preparation3.jpg" alt="" class="d-block w-100 rounded  mb-2">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-tag-fill"></i>
+                                Ready Breads
+                            </h3>
+                            <p>
+                                Admire your creation! At the end of the course, you will have the opportunity to see and taste the breads you've prepared. Celebrate your new skill with delicious breads, ready to be shared with friends and family.
+                            </p>
+                        </div>
+                        <button type="submit" class="btn btn-dark fw-bold pt-2">Buy course</button>
+                    </div>
+                </div>  
+            </section>
+    
+            <section id="menu" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center mb-5">Menu</h2>
+                    </div>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column nav-menu">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#cakes" class="fw-bold text-start nav-link text-colored2 active">Cakes</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#croissant" class="fw-bold text-start nav-link text-colored2">Croissant</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#confectionery" class="fw-bold text-start nav-link text-colored2">Confectionery</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#hamburger" class="fw-bold text-start nav-link text-colored2">Hamburger</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#breads" class="fw-bold text-start nav-link text-colored2">Breads</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="cakes">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Cakes/bolo1.jpg" alt="cake">
+                                            <h5 class="fw-bold mt-2">Chocolate Cake With Strawberry</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Cakes/bolo2.jpg" alt="cake">
+                                            <h5 class="fw-bold mt-2">Chocolate mousse cake with cherry</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Cakes/bolo3.jpg" alt="cake">
+                                            <h5 class="fw-bold mt-2">Blueberry cake with grated coconut</h5>
+                                        </div>   
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane" id="croissant">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Croissant/croissant1.jpg" alt="Cerveja">
+                                            <h5 class="fw-bold mt-2">Croissant</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Croissant/croissant-r.jpg" alt="Vinho">
+                                            <h5 class="fw-bold mt-2">Stuffed croissant</h5>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane" id="confectionery">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Candys/candy1.jpg" alt="Chocolate Candy">
+                                            <h5 class="fw-bold mt-2">Chocolate Candy</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Candys/macarons.jpg" alt="Macarons">
+                                            <h5 class="fw-bold mt-2">Macarons</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Candys/puddin.jpg" alt="Pudding">
+                                            <h5 class="fw-bold mt-2">Pudding</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Candys/cupcake1.jpg" alt="Cupcake Combo">
+                                            <h5 class="fw-bold mt-2">Cupcake Combo</h5>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="images/Candys/cupcake2.jpg" alt="dark chocolate cupcake">
+                                            <h5 class="fw-bold mt-2">Dark Chocolate Cupcake</h5>
+                                        </div>
+                                </div>
+                        </div>
+    
+                        <div class="tab-pane" id="hamburger">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/Hamburguer/hamburguer2.jpg" alt="Salad Burger With Rustic Fries">
+                                    <h5 class="fw-bold mt-2">Salad Burger With Rustic Fries</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/Hamburguer/hamburguer3.jpg" alt="Shredded beef burger and salad">
+                                    <h5 class="fw-bold mt-2">Shredded Beef Burger And Salad</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="images/Hamburguer/hamburguer4.jpg" alt="Bacon Burger with Grilled Cheese">
+                                    <h5 class="fw-bold mt-2">Bacon Burger with Grilled Cheese</h5>
+                                </div>
+                        </div>
+                    </div>
+    
+                    <div class="tab-pane" id="breads">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <img class="d-block w-100 rounded" src="images/Breads/breads.jpg" alt="varied breads">
+                                <h5 class="fw-bold mt-2 text-center">Explore Our Bread Varieties</h5>
+                                <p>
+                                    At Homestead Bakery, we take pride in offering a wide selection of breads, each with its own unique and irresistible flavor. From classic rustic loaves to more innovative options, there is something for every taste.
+                                    Visit us and be seduced by the aroma and flavors of our breads, all made with high-quality ingredients and a pinch of love.
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="contact-us" class="bg-image pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center text-colored">Contact us</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored">Name</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored">Your phone (optional)</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored">Your mensage</label>
+                                    <textarea class="form-control" id="mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Submit</button>
+                            </form>
+                        </div>
+    
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-caret-right-fill"></i>
+                                    Social networks
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Address
+                                </h3>
+                                <p class="text-colored">
+                                    Homestead Bakery,
+                                    27 Baker Street
+                                    London, W1U 8EQ
+                                    United Kingdom
+                                </p>
+                                <img class="uk-flag" src="images/united-kingdom.png" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
